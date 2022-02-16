@@ -1,0 +1,61 @@
+*{
+ border: 0px;
+ padding: 0px;
+
+}
+body{
+    background-image: url(/AgencyIOI-main/assets/images/imagemback.jpg);
+    background-size: cover;
+}
+
+.mensagem{
+    
+    width: 400px;
+    height: 250px;
+    margin-left: 37%;
+    margin-top: 20%;
+    border: 2px solid transparent;
+    border-color: rgb(136, 136, 247);
+    animation: iconTranslateY 0.5s forwards;
+    border: 1px solid rgb(229, 247, 247);
+    border-radius: 5px;
+    
+    
+}
+.mensagem h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-top: 70px;
+    
+}
+
+.mensagem  a{
+    font-family: "Poppins", sans-serif;
+    height: 25px;
+    width: 125px;
+    text-decoration: none;
+    margin-left: 34%;
+    margin-top: 12%;
+    color:white;
+    text-align: center;
+    transition-duration: 1s;
+    border: 3px 5px 3px solid rgb(190, 166, 166);
+    border-radius: 3px;
+    font-size: 14px;
+    
+}
+
+.mensagem:hover a{
+    font-family: "Poppins", sans-serif;
+    background-color: #2a6fd6;
+    border: 3px 5px 3px solid rgb(190, 166, 166);
+    border-radius: 3px;
+    transition-duration: 1s;
+    font-size: 16px;
+    
+
+}
+.mensagem p{
+    text-align: center;
+    margin-top: 2%;
+}
